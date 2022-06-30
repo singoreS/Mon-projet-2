@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav {
+  width: 52vh;
+  height: 100vh;
+  background: purple;
+  padding-top: 10vh;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 30vh
+}
+
+nav ul li {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  width: 75%;
+  min-height: 100vh;
+  margin-left: 25%;
+}
+
+#page1 {
+  background: red;
+  padding-top: 35vh;
+  padding-left: 10vh;
+}
+
+#page2 {
+  background: violet;
+}
+
+#page3 {
+  background: yellowgreen;
+}
+
+#page4 {
+  background: turquoise;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+#debut {
+  color: snow;
+  width: 60%;
+  margin: 30px 0;
+}
+
+.btn {
+  display: block;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 1s linear;
+}
+.btn:hover {
+  background: white;
+  color: black;
+  border-radius: 0px;
+}
+
+#gauche{ width:25%}
+#droite{ width: 75%}
+#gauche,#droite{float: left;}
+
+div{height: 33.33vh;
+width: 100%;
+padding:5vh 0 5vh 5vh;
+}
+
+h2 + p{margin: 2px 0;
+color: snow;}
+
+figure{ width: 110%;
+height: 33.33vh;
+/* border: 1px solid black; pour des bord noire*/
+/* overflow veux dire tout ce qui depasse ex: photo qui depasse du bord  */
+overflow: hidden; 
+padding: 0px;}
+
+figure img{max-width:100%;}
